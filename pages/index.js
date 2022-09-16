@@ -9,7 +9,7 @@ export default function Home() {
   // GEt data from NEWS API
   async function getdata1(){
     console.log("I am here");
-    const str = "meta";
+    const str = "messi";
     const url = `https://newsapi.org/v2/everything?q=${str}&apiKey=8f00b783f8954596834008bdbd4fc1f4`;
     try{
       const response = await axios.get(url);
